@@ -1,0 +1,156 @@
+@import url("normalize.css");
+html {
+  box-sizing: border-box;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+.header {
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #343a40;
+}
+.container-fluid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.logo {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 13px;
+  padding: 20px;
+  color: #ffffff;
+}
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.nav-link {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  padding-left: 8px;
+  padding-top: 15px;
+}
+.intro {
+  background: #e9ecef;
+}
+.row {
+  padding-left: 40px;
+}
+.container {
+  margin-left: 0px;
+}
+.name {
+  font-family: url(/Roboto/Roboto-Light.ttf), sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 62px;
+  line-height: 14px;
+  color: #212529;
+  padding-top: 25px;
+  padding-left: px;
+  padding-bottom: 0px;
+}
+.text {
+  font-family: url(/Roboto/Roboto-Light.ttf), sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #212529;
+  padding-right: 293px;
+  padding-left: 3px;
+}
+.btn {
+  margin-top: 0px;
+  margin-bottom: 50px;
+  border-radius: 2px;
+  padding: 5px 15px;
+}
+.container1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.card1 {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 4px;
+  margin-top: 40px;
+  margin-left: 40px;
+  width: 400px;
+  height: 250px;
+}
+.card2 {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 4px;
+  margin-top: 40px;
+  margin-left: 60px;
+  height: 170px;
+}
+.text_card2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.table-bordered {
+  margin: 25px;
+  margin-bottom: 25px;
+}
+td {
+  padding-right: 100px;
+  padding: 30px;
+}
+th {
+  padding: 30px;
+}
+.blue_text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #007bff;
+}
+.table-responsive {
+  display: table;
+}
+.container2 {
+  padding-right: 75px;
+  padding-left: 15px;
+  padding-bottom: 2\40px;
+}
+.text_footer {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #6c757d;
+  background-color: #F5F5F5;
+  padding: 17px;
+  padding-left: 40px;
+}
